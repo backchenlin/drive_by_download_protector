@@ -1,3 +1,41 @@
+# Drive by Download protector
+
+This chrome extension is protect from drive-by-download attack from web pages.
+You can obtain more detailed information from:
+https://library.naist.jp/mylimedio/search/av1.do?target=local&bibid=75689
+
+# How to Install
+
+1. Start Google chrome.
+2. open chrome://extensions/
+3. Check "Developper mode"
+4. Click "Load unpacked extension..." and select this folder.
+
+
+-----
+for developper document here.
+
+# How to mesure page load time
+
+It changes, and it is measured by the URL that the time measurement is described for the HTML starting from HTML such as time_mesurment/top-100.html by coming back.
+Therefore I judge it using isStartPage() whether it is starting point page whether it is the page except it and come back to the original page after time some than window.onload event (event to occur after a page was read) passed if it is not starting point page and will measure individual time by changing to the page directed again, and repeating return in a few minutes.
+Therefore, this function is sealed in the thing that I do not register to window.onload event at the time of the release when I do standard how to use because I interfere.
+
+When they perform time measurement, the following work is necessary specifically.
+
+1. Disable whole chrome extension (include Content Script Crawler)
+2. Cancel the comment out of the window.onload event handler commented out in the youngest line of contentscript.js
+3. Cancel comment out to search the background.js inside in "TIME_MESURE", and to come out
+4. Enable "Content Script Crawler" and "Reload"
+5. Open "Content Script Crawler" background page
+6. Open attached time_mesurement/top-100.html (or similar HTML to it).
+Time measurement is started by performing it.
+7. I input in the console of the background page that let you display it in 5. so that you acquire current measured time with "ReportMesureData();".
+
+
+-----
+in Japanese.
+
 # これは何
 
 Drive by download を防ぐ chrome extension です。
