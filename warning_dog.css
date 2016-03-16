@@ -1,0 +1,27 @@
+.INJECT_ABSOLUTE_IMAGE {
+    position: fixed;
+    display: none;
+    z-index: 9999;
+    opacity: 0.9;
+}
+
+.INJECT_MESSAGE {
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 200px;
+    margin: -100px 0px 0px -150px;
+
+    position: absolute;
+    display: none;
+
+    z-index: 10000;
+    opacity: 0.9;
+    background-color: #ff8888;
+
+    border-style: groove;
+    border-color: #000000;
+}
+
+
+

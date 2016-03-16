@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+
+  "name": "Content Script Crawler",
+  "description": "This extension is Prototype of Drive by Download Attack.",
+  "version": "1.1",
+  "content_scripts": [
+  {
+  "matches": ["*://*/*", "file:///E:/*"],
+  "js": ["jquery.min.js","contentscript.js"],
+  "css": [ "warning_dog.css" ],
+  "all_frames": false ,
+  "run_at": "document_idle"
+  }
+  ],
+  "browser_action": {
+    "default_title": "Crawler"
+  },
+  "web_accessible_resources": [
+        "img/dog1.png"
+        , "img/dog2.png"
+        , "img/dog3.png"
+        , "img/dog4.png"
+        , "img/dog2.mp3"
+  ],
+  "background": {
+  	       "scripts": ["jquery.min.js","background.js", "back.js"],
+	       "persistent": true
+  },
+
+  "permissions": [
+  		 "webRequest",
+		 "webRequestBlocking",
+		 "tabs",
+		 "alarms",
+		 "*://*/*", "file:///E:/*"
+  ]
+
+}

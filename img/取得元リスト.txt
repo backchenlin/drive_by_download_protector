@@ -1,0 +1,21 @@
+# 画像の取得元メモ
+
+## Doberman_Pinscher_blue_portrait.jpg
+ - URL: http://commons.wikimedia.org/wiki/File:Doberman_Pinscher_blue_portrait.jpg
+ - ライセンス: CC Generic(?) 再配布、改変可、記載の必要無し？
+
+## New_Guinea_Singing_Dog_is_singing.jpg
+ - URL: http://commons.wikimedia.org/wiki/File:New_Guinea_Singing_Dog_is_singing.jpg
+ - ライセンス: CC Generic(?) 再配布、改変可、記載の必要無し？
+
+## Clyde_The_Bulldog.jpg
+ - URL: http://commons.wikimedia.org/wiki/File:Clyde_The_Bulldog.jpg
+ - ライセンス: public domain 再配布、改変可、記載の必要無し
+ 
+## dog-160532_1280.png
+ - URL: http://pixabay.com/ja/%E7%8A%AC-%E7%A9%8D%E6%A5%B5%E7%9A%84%E3%81%A7%E3%81%99-%E4%BE%B5%E7%95%A5-%E6%80%92%E3%82%8A-%E6%94%BB%E6%92%83-%E3%81%8B%E3%82%80-%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97-%E6%AD%AF-160532/
+ - ライセンス: CC0 public domain 再配布、改変可、記載の必要無しっぽい
+
+## ani_ge_dog_wan03.mp3
+ - URL: http://on-jin.com/sound/ani.php
+ - ライセンス: 学校関連ならフリー素材。再配布しないと駄目な配布形式の場合は「必ず著作表記と音源の二次配布、無断利用禁止の表記をお願い」されている
